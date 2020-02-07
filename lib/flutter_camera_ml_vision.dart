@@ -76,6 +76,7 @@ class CameraMlVisionState<T> extends State<CameraMlVision<T>> {
   }
 
   Future<void> stop() async {
+    await _cameraController.stopImageStream();
     if (_cameraController != null) {
       if (_lastImage != null && File(_lastImage).existsSync()) {
         await File(_lastImage).delete();
