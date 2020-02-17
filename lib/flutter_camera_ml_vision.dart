@@ -125,6 +125,7 @@ class CameraMlVisionState<T> extends State<CameraMlVision<T>> {
 
   CameraValue get cameraValue => _cameraController?.value;
   ImageRotation get imageRotation => _rotation;
+  CameraController get cameraController => _cameraController;
 
   Future<void> Function() get prepareForVideoRecording =>
       _cameraController.prepareForVideoRecording;
