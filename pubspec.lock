@@ -33,9 +33,9 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/camera"
-      ref: HEAD
+      ref: camera-flash
       resolved-ref: fba228dd06872b86c270403e9e4ad83f05ab874b
-      url: "git://github.com/Renesanse/plugins.git"
+      url: "git://github.com/refactory-id/plugins.git"
     source: git
     version: "0.5.7+3"
   charcode:
